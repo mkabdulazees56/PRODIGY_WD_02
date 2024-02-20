@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch App</title>
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="time-display" id="time-display">00:00:00</div>
+        <div class="buttons-container">
+            <button id="startBtn" onclick="startStopwatch()">Start</button>
+            <button id="pauseBtn" onclick="pauseStopwatch()">Pause</button>
+            <button id="resetBtn" onclick="resetStopwatch()">Reset</button>
+            <button id="lapBtn" onclick="recordLap()">Lap</button>
+        </div>
+        <ul id="lapList" class="lap-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div>
+        <p class="footer__copy">&#169; 2024 Abdul Azees. All right reserved</p>
+
+    </div>
+</footer>
+</html>
